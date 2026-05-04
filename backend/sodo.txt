@@ -1,0 +1,9 @@
+Frontend (Next.js)
+        ↓
+    server.js  ← (file QUAN TRỌNG NHẤT)
+        ↓
+     routes
+        ↓
+  controllers
+        ↓
+    database

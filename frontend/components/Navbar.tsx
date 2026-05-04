@@ -139,9 +139,9 @@ const Navbar: React.FC = () => {
                 onKeyDown={handleKeyDown}
               />
               <Search
-              size={18}
-              onClick ={handleSearch}
-              className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 cursor-pointer hover:text-gray-700 transition"
+                size={18}
+                onClick={handleSearch}
+                className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 cursor-pointer hover:text-gray-700 transition"
               />
             </div>
             {/* user */}

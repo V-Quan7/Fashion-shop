@@ -1,5 +1,5 @@
 import express from 'express'
-import { createCategory, deleteCategory, getAllCategory, updateCategory } from '../controllers/Categorycontroller.js'
+import { createCategory, deleteCategory, getAllCategory, updateCategory } from '../controllers/CategoryController.js'
 import upload from '../middlewares/uploadCloud.js'
 const router = express.Router()
 

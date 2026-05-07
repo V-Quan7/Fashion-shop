@@ -1,5 +1,8 @@
 "use client";
 
+import { Link } from "lucide-react";
+import NextLink from "next/link"
+
 export default function HeroBanner() {
     return (
         <section className="w-full overflow-hidden rounded-[2rem] bg-gradient-to-r from-amber-50 via-white to-slate-50 p-4 sm:p-6 md:p-8 shadow-xl shadow-slate-200/50">
@@ -10,7 +13,7 @@ export default function HeroBanner() {
                     </span>
 
                     <h1 className="text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
-                    Nâng tầm phong cách <br />để bạn tự tin hơn mỗi ngày mà không lo về giá.”
+                        Nâng tầm phong cách <br />để bạn tự tin hơn mỗi ngày mà không lo về giá.”
                     </h1>
 
                     <p className="max-w-xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -21,9 +24,11 @@ export default function HeroBanner() {
                         <button className="inline-flex items-center justify-center rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-slate-900/20 transition duration-200 hover:-translate-y-0.5 hover:bg-slate-800">
                             Mua ngay
                         </button>
-                        <button className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-700 transition duration-200 hover:border-slate-300 hover:bg-slate-50">
+                        <NextLink
+                            href="/products"
+                            className="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-800 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:bg-slate-100 hover:shadow-md">
                             Xem bộ sưu tập
-                        </button>
+                        </NextLink>
                     </div>
                 </div>
 

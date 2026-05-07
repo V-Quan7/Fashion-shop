@@ -50,7 +50,7 @@ export default function CategoryPage() {
 
     if (loading) {
         return (
-            <div className="min-h-screen bg-gray-50 p-8">
+            <div className="min-h-screen bg-background p-8">
                 <div className="max-w-7xl mx-auto">
                     <div className="animate-pulse">
                         <div className="h-12 bg-gray-200 rounded-lg mb-8"></div>
@@ -71,7 +71,7 @@ export default function CategoryPage() {
 
     if (!category) {
         return (
-            <div className="min-h-screen bg-gray-50 p-8">
+            <div className="min-h-screen bg-background p-8">
                 <div className="max-w-7xl mx-auto text-center">
                     <h1 className="text-3xl font-bold text-gray-800 mb-4">Category not found</h1>
                     <p className="text-gray-600">The category you're looking for doesn't exist.</p>
@@ -81,7 +81,7 @@ export default function CategoryPage() {
     }
 
     return (
-        <div className="min-h-screen bg-gray-50">
+        <div className="min-h-screen bg-background">
             {/* Breadcrumb */}
             <div className="bg-white border-b">
                 <div className="max-w-7xl mx-auto px-8 py-4">

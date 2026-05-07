@@ -65,7 +65,7 @@ const Navbar: React.FC = () => {
           {/* MENU DESKTOP */}
           <div className="hidden md:flex items-center gap-8 text-gray-600">
 
-            <a href="#" className="hover:text-black transition">Home</a>
+            <a href="/" className="hover:text-black transition">Trang chủ</a>
 
             {/* 🔥 DROPDOWN */}
             <div

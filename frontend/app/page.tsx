@@ -1,9 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { getProducts } from "../services/api.js";
-import ProductCard from "@/components/ProductCard";
-import { Product } from "@/types/product.js";
+import { getProducts } from "../services/api";
+import { Product } from "@/types/product";
 import HeroBanner from "@/components/banner/HeroBanner";
 import CategoryIcon from "@/components/categoryicon/CategoryIcon";
 import PromoBanner from "@/components/banner/PromoBanner";
